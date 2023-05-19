@@ -8,7 +8,9 @@
  
 -save the training data set in a folder named "train" and place it inside the folder of the project
 
--add the json file digiStruct.json (found in the project files) to the train folder 
+-copy the json file digiStruct.json (found in the project files) to the train folder 
+
+-unzip the folder named temps.zip
 
 -install the libraries needed that can be found imported at the start of the code
  use pip install *library name* at your cmd (preferably run as admin):
@@ -22,4 +24,6 @@
  pip install torch
  pip install torchvision
 
--run the file named algorithm2.py
+-for phase 1 run the file named algorithm2.py
+
+-for phase 2 (and phase 1 combined) run the file named phase2.py
